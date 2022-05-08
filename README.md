@@ -10,7 +10,7 @@
 [x] - GlobalStyle <br>
 [x] - Component Layout <br>
 [x] - styles.d.ts to export interface DefaultTheme<br>
-
+[x] - Pallet ColorsThemes
 # Other idea to implements
 
 [] -> Add "scroll to new messages" button<br>
