@@ -1,11 +1,11 @@
 import React from 'react';
-import Main from './Components/Main';
 
 import usePersistedState from './utils/usePersistedState';
 import { DefaultTheme, ThemeProvider } from 'styled-components';
 import light from './styles/theme/light';
 import dark from './styles/theme/dark';
 import Header from './Components/Header';
+import { Layout } from './Components/Layout';
 
 const App: React.FC = () => {
 
@@ -15,8 +15,8 @@ const App: React.FC = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Header toggleTheme={toggleTheme}/>
-      <Main/>
+      {/* <Header toggleTheme={toggleTheme}/> */}
+      <Layout/>
     </ThemeProvider>
   );
 }

@@ -1,8 +1,12 @@
 import React from 'react';
+import ServerList from '../ServerList';
 import { Container } from './styles';
 
-interface LayoutProps {
-    children: JSX.Element;
-}
 
-export const Layout: React.FC<LayoutProps> = ({ children }) => <Container>{children}</Container>;
+export const Layout = () => {
+    return (
+        <Container>
+            <ServerList/>
+        </Container>
+    )
+}
