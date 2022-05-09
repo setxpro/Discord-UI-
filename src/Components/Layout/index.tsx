@@ -1,7 +1,9 @@
 import React from 'react';
 import ChannelInfo from '../ChannelInfo';
+import ChannelList from '../ChannelList';
 import ServerList from '../ServerList';
 import ServerName from '../ServerName';
+import UserInfo from '../UserInfo';
 import { Container } from './styles';
 
 interface Props {
@@ -14,6 +16,8 @@ export const Layout = ( { toggleTheme }: Props ) => {
             <ServerList/>
             <ServerName/>
             <ChannelInfo toggleTheme={toggleTheme}/>
+            <ChannelList/>
+            <UserInfo/>
         </Container>
     )
 }

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 import usePersistedState from './utils/usePersistedState';
 import { DefaultTheme, ThemeProvider } from 'styled-components';
@@ -8,7 +8,6 @@ import { Layout } from './Components/Layout';
 
 const App: React.FC = () => {
 
-  // initial State
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
   const toggleTheme = () => setTheme(theme.title === 'light' ? dark : light);
 

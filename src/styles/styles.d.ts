@@ -10,6 +10,8 @@ declare module 'styled-components' {
             quaternary: string;
             quinary: string;
             senary: string;       
+            row: string;
+            text: string;
         },
         scroll: {
             track: string;

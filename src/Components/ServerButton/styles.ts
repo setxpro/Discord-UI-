@@ -43,7 +43,7 @@ export const Button = styled.button<ServerButtonProps>`
         left: -17px;
         top: calc(50%-4.5px);
 
-        background: #000; // Create DefaultTheme
+        background: ${props => props.theme.colors.senary}; 
         border-radius: 50%;
 
         content: '';

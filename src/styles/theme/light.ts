@@ -6,7 +6,9 @@ export default {
         tertiary: '#FFF',
         quaternary: '#F2F3F5', // input
         quinary: '#DCDFE3', // hover secondary
-        senary: '#333' // Bold to nickname
+        senary: '#333', // Bold to nickname
+        row: '#DCDFE3',
+        text: '#000',
     },
     scroll: {
         track: '#F2F3F5',
